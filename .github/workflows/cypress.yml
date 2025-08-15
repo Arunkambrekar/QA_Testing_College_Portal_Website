@@ -1,35 +1,29 @@
-name: Cypress Tests
+name: Cypress Tests (Staging)
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout code
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Setup Node.js
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      # Step 3: Install dependencies
-      - name: Install Dependencies
-        run: npm install
+      - name: Install dependencies
+        run: npm ci
         working-directory: ./Cypress_Automation/cypress-demo
 
-      # Step 4: Run Cypress tests
-      - name: Run Cypress
+      - name: Run Cypress tests on staging
         uses: cypress-io/github-action@v6
         with:
           working-directory: ./Cypress_Automation/cypress-demo
