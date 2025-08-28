@@ -1,0 +1,178 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: ×
+    - heading "Login Failed" [level=3] [ref=e5]
+    - paragraph [ref=e6]: Too many failed login attempts. Please try again after 1 minutes.
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e11]:
+        - link "logo" [ref=e12] [cursor=pointer]:
+          - /url: "#!"
+          - img "logo" [ref=e14] [cursor=pointer]
+        - link "KLE Technological University, Hubballi" [ref=e16] [cursor=pointer]:
+          - /url: "#!"
+          - text: KLE Technological University,
+          - text: Hubballi
+      - generic [ref=e17]:
+        - article [ref=e18]:
+          - heading "Welcome to KLETECH" [level=2] [ref=e19]:
+            - link "Welcome to KLETECH" [ref=e20] [cursor=pointer]:
+              - /url: ""
+          - paragraph [ref=e21]: KLE Technological University (KLE Tech) has its roots in B. V. Bhoomaraddi College of Engineering and Technology, Hubli (BVB), one of the premier engineering institution of Karnataka. The founding organization KLE Society, Belgaum, established BVB college in 1947 with an aspiration of creating an institution that would lay the foundation of modern engineering education in northern region of Karnataka.
+        - paragraph [ref=e22]:
+          - generic [ref=e23]: Click here to access
+        - generic [ref=e24]:
+          - paragraph [ref=e25]:
+            - link "Even 2025 parent portal" [ref=e26] [cursor=pointer]:
+              - /url: kletechparentseven/
+          - paragraph [ref=e27]:
+            - link "Supply 2025 parent portal" [ref=e28] [cursor=pointer]:
+              - /url: kletechpaymentsupply/
+        - generic [ref=e30]:
+          - link "Notice Board" [ref=e34] [cursor=pointer]:
+            - /url: "#!"
+            - heading "Notice Board" [level=3] [ref=e35] [cursor=pointer]
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - img [ref=e40]
+              - text: Welcome to the preview of the new mobile friendly parent portal
+            - listitem [ref=e43]:
+              - img [ref=e45]
+              - text: Dear parents, The last date to remit the admission fee for the final year is extended up to 7th August, 2025. If any failure, you can check the update status of the transaction in the parent portal up to 48 hours, then contact the accounts section.
+    - generic [ref=e51]:
+      - heading "Login - Odd Term 2025" [level=3] [ref=e52]
+      - generic [ref=e54]:
+        - generic [ref=e55]: Username
+        - generic:
+          - img
+        - textbox "USN" [ref=e56]
+      - generic [ref=e58]:
+        - generic [ref=e59]: Password
+        - generic [ref=e60]:
+          - combobox [ref=e61]:
+            - option "Day" [disabled] [selected]
+            - option "01"
+            - option "02"
+            - option "03"
+            - option "04"
+            - option "05"
+            - option "06"
+            - option "07"
+            - option "08"
+            - option "09"
+            - option "10"
+            - option "11"
+            - option "12"
+            - option "13"
+            - option "14"
+            - option "15"
+            - option "16"
+            - option "17"
+            - option "18"
+            - option "19"
+            - option "20"
+            - option "21"
+            - option "22"
+            - option "23"
+            - option "24"
+            - option "25"
+            - option "26"
+            - option "27"
+            - option "28"
+            - option "29"
+            - option "30"
+            - option "31"
+          - combobox [ref=e62]:
+            - option "Month" [disabled] [selected]
+            - option "Jan"
+            - option "Feb"
+            - option "Mar"
+            - option "Apr"
+            - option "May"
+            - option "Jun"
+            - option "Jul"
+            - option "Aug"
+            - option "Sep"
+            - option "Oct"
+            - option "Nov"
+            - option "Dec"
+          - combobox [ref=e63]:
+            - option "Year" [disabled] [selected]
+            - option "1965"
+            - option "1966"
+            - option "1967"
+            - option "1968"
+            - option "1969"
+            - option "1970"
+            - option "1971"
+            - option "1972"
+            - option "1973"
+            - option "1974"
+            - option "1975"
+            - option "1976"
+            - option "1977"
+            - option "1978"
+            - option "1979"
+            - option "1980"
+            - option "1981"
+            - option "1982"
+            - option "1983"
+            - option "1984"
+            - option "1985"
+            - option "1986"
+            - option "1987"
+            - option "1988"
+            - option "1989"
+            - option "1990"
+            - option "1991"
+            - option "1992"
+            - option "1993"
+            - option "1994"
+            - option "1995"
+            - option "1996"
+            - option "1997"
+            - option "1998"
+            - option "1999"
+            - option "2000"
+            - option "2001"
+            - option "2002"
+            - option "2003"
+            - option "2004"
+            - option "2005"
+            - option "2006"
+            - option "2007"
+            - option "2008"
+            - option "2009"
+            - option "2010"
+            - option "2011"
+            - option "2012"
+            - option "2013"
+            - option "2014"
+            - option "2015"
+            - option "2016"
+            - option "2017"
+            - option "2018"
+            - option "2019"
+            - option "2020"
+            - option "2021"
+            - option "2022"
+            - option "2023"
+            - option "2024"
+            - option "2025"
+      - button "Login" [ref=e65] [cursor=pointer]
+  - contentinfo [ref=e66]:
+    - generic [ref=e67]:
+      - paragraph [ref=e69]:
+        - text: Copyright © Powered By
+        - link "Contineo" [ref=e70] [cursor=pointer]:
+          - /url: http://www.contineo.in/
+      - paragraph [ref=e72]:
+        - link "Terms of Service" [ref=e73] [cursor=pointer]:
+          - /url: ""
+        - text: "|"
+        - link "Privacy Policy" [ref=e74] [cursor=pointer]:
+          - /url: "#!"
+```

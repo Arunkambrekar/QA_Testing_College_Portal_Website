@@ -1,0 +1,95 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img "logo" [ref=e10]
+      - link "KLE Technological University, Hubballi" [ref=e12] [cursor=pointer]:
+        - /url: "#!"
+    - navigation [ref=e14]:
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - link "Home" [ref=e19] [cursor=pointer]:
+            - /url: index.php?option=com_studentdashboard&controller=studentdashboard&task=dashboard
+        - listitem [ref=e20]:
+          - link "Proctorship" [ref=e21] [cursor=pointer]:
+            - /url: index.php?option=com_studentdashboard&controller=studentdashboard&task=observation
+        - listitem [ref=e22]:
+          - link "Fee" [ref=e23] [cursor=pointer]:
+            - /url: index.php?option=com_fee&controller=fee&task=studFee
+        - listitem [ref=e24]:
+          - link "Calendar of Events" [ref=e25] [cursor=pointer]:
+            - /url: index.php?option=com_bvbsims&controller=academiccal&task=calenderdisplay&yearId=
+        - listitem [ref=e26]:
+          - link "Time Table" [ref=e27] [cursor=pointer]:
+            - /url: index.php?option=com_studentdashboard&controller=studentdashboard&task=timetable
+        - listitem [ref=e28]:
+          - link "Exam History" [ref=e29] [cursor=pointer]:
+            - /url: index.php?option=com_history&task=getResult&usn=01FE21BEC242
+        - listitem [ref=e30]:
+          - link "Placement" [ref=e31] [cursor=pointer]:
+            - /url: index.php?option=com_studentdashboard&controller=placement&task=dashboard
+        - listitem [ref=e32]:
+          - link "Feedback" [ref=e33] [cursor=pointer]:
+            - /url: index.php?option=com_feedback&controller=feedbackentry&task=feedbackTypes
+        - listitem [ref=e34]:
+          - link "Backlog Registration" [ref=e35] [cursor=pointer]:
+            - /url: index.php?option=com_bvbsims&controller=backlogreg&task=coursereg&semorder=
+        - listitem [ref=e36]:
+          - link "Other Links" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+            - text: Other Links
+            - img [ref=e39] [cursor=pointer]
+        - listitem [ref=e41]:
+          - link "Logout" [ref=e42] [cursor=pointer]:
+            - /url: javascript:document.log.submit()
+  - generic [ref=e46]:
+    - generic [ref=e48]:
+      - heading "ARUN SANJAY KAMBREKAR" [level=3] [ref=e49]
+      - img "Student" [ref=e50]
+    - generic [ref=e52]:
+      - heading "01FE21BEC242" [level=2] [ref=e54]
+      - paragraph [ref=e56]: B.E-EC, SEM 08, SEC D
+  - generic [ref=e57]:
+    - button "Switch Theme" [ref=e59]
+    - paragraph [ref=e62]: "Last Updated On: 28/08/2025"
+  - list [ref=e64]:
+    - listitem [ref=e65]:
+      - generic [ref=e67]:
+        - heading "Mentor Comments :" [level=4] [ref=e69]
+        - paragraph [ref=e71]: Basawaraj Patil, Assisstant Professor
+        - paragraph [ref=e73]: basawaraj.patil@kletech.ac.in
+  - generic [ref=e74]:
+    - generic [ref=e78]:
+      - heading "Credits" [level=3] [ref=e79]
+      - generic [ref=e80]:
+        - generic [ref=e81]: "Credits Earned : 171.5"
+        - generic [ref=e82]: "Credits to Earn : 4.5"
+    - generic [ref=e90]:
+      - heading "Fees status" [level=3] [ref=e91]
+      - generic [ref=e93]: ₹ 153604 Paid
+  - heading [level=3]:
+    - table
+  - table "Course registration - CIE and attendance status" [ref=e101]:
+    - caption [ref=e102]: Course registration - CIE and attendance status
+    - rowgroup [ref=e103]:
+      - row "Course code Course Name Attendance CIE" [ref=e104]:
+        - cell "Course code" [ref=e105]
+        - cell "Course Name" [ref=e106]
+        - cell "Attendance" [ref=e107]
+        - cell "CIE" [ref=e108]
+    - rowgroup
+  - contentinfo [ref=e109]:
+    - generic [ref=e110]:
+      - paragraph [ref=e112]:
+        - text: Copyright © Powered By
+        - link "Contineo" [ref=e113] [cursor=pointer]:
+          - /url: http://www.contineo.in/
+      - paragraph [ref=e115]:
+        - link "Terms of Service" [ref=e116] [cursor=pointer]:
+          - /url: "#!"
+        - text: "|"
+        - link "Privacy Policy" [ref=e117] [cursor=pointer]:
+          - /url: "#!"
+```
