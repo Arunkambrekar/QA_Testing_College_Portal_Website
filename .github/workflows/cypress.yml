@@ -24,27 +24,26 @@ jobs:
       # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm ci
-        working-directory: ./Cypress_Automation/cypress-demo
+        working-directory: ./Cypress_Automation/Dashboard-Page-Cypress
 
       # 4️⃣ Start local server in background
       - name: Start local server
         run: npm start &
-        working-directory: ./Cypress_Automation/cypress-demo
+        working-directory: ./Cypress_Automation/Dashboard-Page-Cypress
 
       # 5️⃣ Wait for server to be ready (port 3000)
       - name: Wait for server
         run: npx wait-on --timeout 60000 http://localhost:3000
-        working-directory: ./Cypress_Automation/cypress-demo
+        working-directory: ./Cypress_Automation/Dashboard-Page-Cypress
 
+      # (Optional) Debug homepage HTML
       - name: Debug homepage HTML
         run: curl -s http://localhost:3000 | head -n 20
-        working-directory: ./Cypress_Automation/cypress-demo
-
 
       # 6️⃣ Run Cypress tests (using local server)
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6
         with:
-          working-directory: ./Cypress_Automation/cypress-demo
+          working-directory: ./Cypress_Automation/Dashboard-Page-Cypress
           browser: chrome
           headed: false
