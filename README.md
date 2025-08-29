@@ -5,6 +5,7 @@
 
 This project shows my work on manual and automated testing for a College Website in two sprints:
 **Sprint 1**: Login Module
+
 **Sprint 2**: Profile/Dashboard Module
 
 It includes manual test cases, bug tracking, automation using Cypress and Playwright, CI/CD with GitHub Actions, and reporting.
