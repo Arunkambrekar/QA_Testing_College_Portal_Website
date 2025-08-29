@@ -4,6 +4,7 @@
 **Overview**
 
 This project shows my work on manual and automated testing for a College Website in two sprints:
+
 **Sprint 1**: Login Module
 
 **Sprint 2**: Profile/Dashboard Module
